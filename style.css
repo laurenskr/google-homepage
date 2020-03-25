@@ -1,0 +1,50 @@
+html, body, .wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+.main {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.searchbox {
+    width: 527px;
+    height: 34px;
+    border-radius: 10px;
+    resize: none;
+    margin: 10px;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+button {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 6px;
+    color: #5f6368;
+    border: none;
+}
+.footer {
+    align-self: flex-end;
+    background-color: #f2f2f2;
+    width: 100vw;
+    height: 40px;
+    text-align: end;
+}
